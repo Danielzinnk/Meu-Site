@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="0" y="0" width="240" height="720" fill="#111827"/>
+  <text x="40" y="54" font-family="monospace" font-size="16" fill="#59bcff" font-weight="bold">Vida de Pet</text>
+  <rect x="20" y="90" width="200" height="14" rx="4" fill="#1e293b"/>
+  <rect x="20" y="114" width="200" height="14" rx="4" fill="#1e293b"/>
+  <rect x="20" y="138" width="180" height="14" rx="4" fill="#1c80f5" opacity="0.3"/>
+  <rect x="240" y="0" width="1040" height="64" fill="#111827"/>
+  <rect x="270" y="90" width="970" height="600" rx="12" fill="#111827"/>
+  <rect x="290" y="110" width="200" height="20" rx="4" fill="#475569"/>
+  <!-- Patient info -->
+  <rect x="290" y="150" width="440" height="180" rx="12" fill="#1e293b"/>
+  <rect x="310" y="170" width="80" height="80" rx="40" fill="#1c80f5" opacity="0.3"/>
+  <rect x="410" y="175" width="180" height="16" rx="4" fill="#475569"/>
+  <rect x="410" y="200" width="120" height="10" rx="3" fill="#334155"/>
+  <rect x="410" y="220" width="140" height="10" rx="3" fill="#334155"/>
+  <rect x="310" y="270" width="100" height="24" rx="6" fill="#2dd4bf" opacity="0.2"/>
+  <rect x="430" y="270" width="100" height="24" rx="6" fill="#fbbf24" opacity="0.2"/>
+  <rect x="750" y="150" width="490" height="180" rx="12" fill="#1e293b"/>
+  <rect x="770" y="170" width="160" height="16" rx="4" fill="#475569"/>
+  <rect x="770" y="200" width="450" height="1" fill="#334155"/>
+  <rect x="770" y="215" width="120" height="10" rx="3" fill="#334155"/>
+  <rect x="900" y="215" width="80" height="10" rx="3" fill="#59bcff"/>
+  <rect x="770" y="240" width="120" height="10" rx="3" fill="#334155"/>
+  <rect x="900" y="240" width="100" height="10" rx="3" fill="#2dd4bf"/>
+  <rect x="770" y="265" width="120" height="10" rx="3" fill="#334155"/>
+  <rect x="900" y="265" width="60" height="10" rx="3" fill="#fbbf24"/>
+  <!-- Medical records -->
+  <rect x="290" y="350" width="950" height="320" rx="12" fill="#1e293b"/>
+  <rect x="310" y="370" width="180" height="16" rx="4" fill="#475569"/>
+  <rect x="310" y="400" width="910" height="1" fill="#334155"/>
+  <rect x="320" y="420" width="100" height="10" rx="3" fill="#59bcff"/>
+  <rect x="440" y="420" width="200" height="10" rx="3" fill="#475569"/>
+  <rect x="670" y="420" width="150" height="10" rx="3" fill="#475569"/>
+  <rect x="850" y="420" width="120" height="10" rx="3" fill="#475569"/>
+  <rect x="320" y="450" width="100" height="10" rx="3" fill="#2dd4bf"/>
+  <rect x="440" y="450" width="200" height="10" rx="3" fill="#475569"/>
+  <rect x="670" y="450" width="150" height="10" rx="3" fill="#475569"/>
+  <rect x="850" y="450" width="120" height="10" rx="3" fill="#475569"/>
+  <rect x="320" y="480" width="100" height="10" rx="3" fill="#fbbf24"/>
+  <rect x="440" y="480" width="200" height="10" rx="3" fill="#475569"/>
+  <rect x="670" y="480" width="150" height="10" rx="3" fill="#475569"/>
+  <rect x="850" y="480" width="120" height="10" rx="3" fill="#475569"/>
+  <text x="640" y="700" font-family="sans-serif" font-size="14" fill="#475569" text-anchor="middle">Vida de Pet — Prontuário digital</text>
+</svg>

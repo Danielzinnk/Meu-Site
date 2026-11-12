@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1c80f5"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1280" height="56" fill="#111827"/>
+  <rect x="30" y="16" width="200" height="24" rx="6" fill="#1e293b"/>
+  <text x="40" y="34" font-family="monospace" font-size="14" fill="#59bcff" font-weight="bold">Planilha de Gestão</text>
+  <rect x="1000" y="16" width="120" height="24" rx="6" fill="#1e293b"/>
+  <rect x="1140" y="16" width="110" height="24" rx="6" fill="url(#accent)"/>
+  <!-- Sidebar tabs -->
+  <rect x="0" y="56" width="200" height="664" fill="#0d1525"/>
+  <rect x="10" y="70" width="180" height="32" rx="6" fill="#1c80f5" opacity="0.2"/>
+  <rect x="20" y="80" width="140" height="12" rx="3" fill="#59bcff"/>
+  <rect x="10" y="110" width="180" height="32" rx="6" fill="#1e293b"/>
+  <rect x="20" y="120" width="120" height="12" rx="3" fill="#475569"/>
+  <rect x="10" y="150" width="180" height="32" rx="6" fill="#1e293b"/>
+  <rect x="20" y="160" width="100" height="12" rx="3" fill="#475569"/>
+  <rect x="10" y="190" width="180" height="32" rx="6" fill="#1e293b"/>
+  <rect x="20" y="200" width="130" height="12" rx="3" fill="#475569"/>
+  <!-- Main dashboard -->
+  <rect x="220" y="70" width="1050" height="640" rx="12" fill="#111827"/>
+  <rect x="240" y="90" width="200" height="18" rx="4" fill="#475569"/>
+  <!-- KPI cards -->
+  <rect x="240" y="120" width="240" height="100" rx="12" fill="#1e293b"/>
+  <rect x="260" y="140" width="140" height="12" rx="3" fill="#475569"/>
+  <rect x="260" y="165" width="100" height="32" rx="4" fill="#2dd4bf"/>
+  <rect x="500" y="120" width="240" height="100" rx="12" fill="#1e293b"/>
+  <rect x="520" y="140" width="140" height="12" rx="3" fill="#475569"/>
+  <rect x="520" y="165" width="80" height="32" rx="4" fill="#fbbf24"/>
+  <rect x="760" y="120" width="240" height="100" rx="12" fill="#1e293b"/>
+  <rect x="780" y="140" width="140" height="12" rx="3" fill="#475569"/>
+  <rect x="780" y="165" width="90" height="32" rx="4" fill="#59bcff"/>
+  <rect x="1020" y="120" width="230" height="100" rx="12" fill="#1e293b"/>
+  <rect x="1040" y="140" width="140" height="12" rx="3" fill="#475569"/>
+  <rect x="1040" y="165" width="70" height="32" rx="4" fill="#1c80f5"/>
+  <!-- Chart area -->
+  <rect x="240" y="240" width="680" height="250" rx="12" fill="#1e293b"/>
+  <rect x="260" y="260" width="160" height="14" rx="4" fill="#475569"/>
+  <!-- Bar chart -->
+  <rect x="280" y="440" width="40" height="30" rx="4" fill="#1c80f5" opacity="0.6"/>
+  <rect x="340" y="420" width="40" height="50" rx="4" fill="#1c80f5" opacity="0.6"/>
+  <rect x="400" y="400" width="40" height="70" rx="4" fill="#2dd4bf" opacity="0.6"/>
+  <rect x="460" y="380" width="40" height="90" rx="4" fill="#2dd4bf" opacity="0.6"/>
+  <rect x="520" y="360" width="40" height="110" rx="4" fill="#fbbf24" opacity="0.6"/>
+  <rect x="580" y="390" width="40" height="80" rx="4" fill="#fbbf24" opacity="0.6"/>
+  <rect x="640" y="370" width="40" height="100" rx="4" fill="#1c80f5" opacity="0.6"/>
+  <rect x="700" y="350" width="40" height="120" rx="4" fill="#2dd4bf" opacity="0.6"/>
+  <rect x="760" y="340" width="40" height="130" rx="4" fill="#59bcff" opacity="0.6"/>
+  <rect x="820" y="360" width="40" height="110" rx="4" fill="#1c80f5" opacity="0.6"/>
+  <rect x="880" y="330" width="40" height="140" rx="4" fill="#2dd4bf" opacity="0.6"/>
+  <!-- Line chart legend -->
+  <rect x="260" y="470" width="12" height="12" rx="2" fill="#1c80f5"/>
+  <rect x="280" y="473" width="60" height="8" rx="2" fill="#475569"/>
+  <rect x="360" y="470" width="12" height="12" rx="2" fill="#2dd4bf"/>
+  <rect x="380" y="473" width="60" height="8" rx="2" fill="#475569"/>
+  <!-- Side panel -->
+  <rect x="940" y="240" width="310" height="250" rx="12" fill="#1e293b"/>
+  <rect x="960" y="260" width="140" height="14" rx="4" fill="#475569"/>
+  <!-- Pie chart -->
+  <circle cx="1095" cy="360" r="60" fill="#1e293b" stroke="#1c80f5" stroke-width="20" stroke-dasharray="120 380"/>
+  <circle cx="1095" cy="360" r="60" fill="none" stroke="#2dd4bf" stroke-width="20" stroke-dasharray="80 380" stroke-dashoffset="-120"/>
+  <circle cx="1095" cy="360" r="60" fill="none" stroke="#fbbf24" stroke-width="20" stroke-dasharray="60 380" stroke-dashoffset="-200"/>
+  <rect x="960" y="430" width="80" height="8" rx="2" fill="#1c80f5"/>
+  <rect x="1050" y="430" width="60" height="8" rx="2" fill="#2dd4bf"/>
+  <rect x="1120" y="430" width="60" height="8" rx="2" fill="#fbbf24"/>
+  <!-- Table -->
+  <rect x="240" y="510" width="1010" height="180" rx="12" fill="#1e293b"/>
+  <rect x="260" y="530" width="140" height="14" rx="4" fill="#475569"/>
+  <rect x="260" y="560" width="970" height="1" fill="#334155"/>
+  <rect x="270" y="580" width="100" height="10" rx="3" fill="#59bcff"/>
+  <rect x="400" y="580" width="200" height="10" rx="3" fill="#475569"/>
+  <rect x="630" y="580" width="150" height="10" rx="3" fill="#475569"/>
+  <rect x="820" y="580" width="100" height="10" rx="3" fill="#2dd4bf"/>
+  <rect x="950" y="580" width="120" height="10" rx="3" fill="#475569"/>
+  <rect x="270" y="610" width="100" height="10" rx="3" fill="#fbbf24"/>
+  <rect x="400" y="610" width="200" height="10" rx="3" fill="#475569"/>
+  <rect x="630" y="610" width="150" height="10" rx="3" fill="#475569"/>
+  <rect x="820" y="610" width="100" height="10" rx="3" fill="#fbbf24"/>
+  <rect x="950" y="610" width="120" height="10" rx="3" fill="#475569"/>
+  <rect x="270" y="640" width="100" height="10" rx="3" fill="#2dd4bf"/>
+  <rect x="400" y="640" width="200" height="10" rx="3" fill="#475569"/>
+  <rect x="630" y="640" width="150" height="10" rx="3" fill="#475569"/>
+  <rect x="820" y="640" width="100" height="10" rx="3" fill="#59bcff"/>
+  <text x="640" y="700" font-family="sans-serif" font-size="14" fill="#475569" text-anchor="middle">Planilha de Gestão — Dashboard</text>
+</svg>
