@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, Brain } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { whatsappLink } from '@/lib/contact';
 
 function TypingLogo() {
@@ -56,16 +56,14 @@ export default function Navbar() {
     }
   }, [clickCount]);
 
-  const handleLogoClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    setClickCount((prev) => {
-      const newCount = prev + 1;
-      if (newCount >= 3) {
-        window.location.href = '/admin';
-        return 0;
-      }
-      return newCount;
-    });
+  const handleLogoClick = () => {
+    const newCount = clickCount + 1;
+    if (newCount >= 3) {
+      window.location.href = '/admin';
+      setClickCount(0);
+      return;
+    }
+    setClickCount(newCount);
   };
 
   return (
@@ -77,11 +75,12 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5">
-        <a href="#home" onClick={handleLogoClick} className="flex items-center gap-2.5 text-white cursor-pointer">
-          <span className="grid h-9 w-9 place-items-center rounded-lg border border-brand-500/30 bg-brand-500/10">
-            <Brain className="h-5 w-5 text-brand-400" strokeWidth={2.5} />
-          </span>
-          <TypingLogo />
+        <a href="#home" onClick={handleLogoClick} className="flex items-center cursor-pointer">
+          <img
+            src="/logo.png"
+            alt="DanielTech Dev"
+            className="h-12 w-auto object-contain"
+          />
         </a>
 
         <ul className="hidden items-center gap-7 md:flex">
@@ -113,14 +112,16 @@ export default function Navbar() {
         <button
           onClick={() => setOpen((v) => !v)}
           className="grid h-10 w-10 place-items-center rounded-lg text-white transition-colors hover:bg-white/10 md:hidden"
-          aria-label="Menu"
+          aria-label={open ? 'Fechar menu' : 'Abrir menu'}
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </nav>
 
       {open && (
-        <div className="md:hidden">
+        <div id="mobile-navigation" className="md:hidden">
           <div className="mx-5 mt-3 rounded-2xl border border-white/5 bg-ink-900/95 p-4 backdrop-blur-xl">
             <ul className="flex flex-col gap-1">
               {NAV_LINKS.map((link) => (
