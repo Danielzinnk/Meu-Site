@@ -1,4 +1,4 @@
-import { Brain, MessageCircle, Mail, Instagram, Github } from 'lucide-react';
+import { MessageCircle, Mail, Instagram, Github } from 'lucide-react';
 import { whatsappLink, WHATSAPP_DISPLAY, WHATSAPP_LINK, EMAIL, INSTAGRAM, GITHUB } from '@/lib/contact';
 
 export default function Footer() {
@@ -7,13 +7,12 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-5">
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row md:items-start">
           <div className="text-center md:text-left">
-            <a href="#home" className="inline-flex items-center gap-2.5 text-white">
-              <span className="grid h-9 w-9 place-items-center rounded-lg border border-brand-500/30 bg-brand-500/10">
-                <Brain className="h-5 w-5 text-brand-400" strokeWidth={2.5} />
-              </span>
-              <span className="font-mono text-base font-semibold tracking-tight">
-                Daniel<span className="text-brand-400">.Dev</span>
-              </span>
+            <a href="#home" className="inline-block">
+              <img
+                src="/banner.jpg"
+                alt="DanielTech Dev"
+                className="h-16 w-auto object-contain rounded-lg"
+              />
             </a>
             <p className="mt-3 max-w-xs text-sm text-ink-400">
               Sites, automação e cardápios digitais feitos sob medida para o seu negócio.
