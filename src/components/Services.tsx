@@ -1,4 +1,4 @@
-import { Globe, Bot, UtensilsCrossed, ShoppingCart, Smartphone, Zap, Nfc, Instagram, ArrowRight } from 'lucide-react';
+import { Globe, Bot, UtensilsCrossed, ShoppingCart, Smartphone, Zap, Nfc, Instagram, Video, ArrowRight } from 'lucide-react';
 import { whatsappLink } from '@/lib/contact';
 
 const SERVICES = [
@@ -65,6 +65,14 @@ const SERVICES = [
     features: ['Core Web Vitals', 'SEO técnico', 'Relatórios'],
     message: 'Olá Daniel! Quero otimizar meu site e melhorar no Google.',
     span: '',
+  },
+  {
+    icon: Video,
+    title: 'Vídeos Animados para Redes Sociais',
+    desc: 'Divulgue seu negócio com vídeos curtos para Reels, Stories e WhatsApp. Crio o roteiro e produzo animações com IA, com edição personalizada para a sua marca.',
+    features: ['Roteiro', 'Animação com IA', 'Edição personalizada'],
+    message: 'Olá Daniel! Gostaria de um orçamento para um vídeo animado para as redes sociais do meu negócio.',
+    span: 'lg:col-span-2',
   },
 ];
 
